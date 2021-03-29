@@ -31,13 +31,18 @@ class Profissional(models.Model):
     nome = models.CharField(max_length=100)
     register_id = models.CharField(max_length=10)
     rank = models.IntegerField()
-    raw_validation = models.JSONField(_("raw validation"), null=True, blank=True)
+    raw_validation = models.JSONField()
     
-    def is_in_scope(self):
-        return self.tipo_profissional in {
+    @classmethod
+    def is_in_scope(tipo_para_comparar, uf_para_comparar):
+        if tipo_para_comparar in not {
             self.TipoDeRegistro.MEDICINA,
             self.TipoDeRegistro.PSICOLOGIA,
-        }
+        } and uf_para_comparar in not {
+            self.UF.SP
+        }:
+            return False
+        return True
     
     class Meta:
         ordering = ['nome']
