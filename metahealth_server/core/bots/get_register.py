@@ -16,6 +16,7 @@ class RegisterValidationBot:
         self.uf = uf[0:1] + "%2F" + uf[2:]
         self.Session = requests.Session()
     
+    #TODO: checking all information before bot calling and adding better callback
     def __url_builder(self):
         return self.target + f"?tipo={self.tipo_profissional}&uf={self.uf}&q={self.registro_profissional}\
             &chave={self.REGISTER_KEY}&destino={self.output_type}"
@@ -29,6 +30,5 @@ class RegisterValidationBot:
             res = ses.get(__url_builder)
             if res.status_code != requests.codes.ok:
                 res.raise_for_status()
-            json_res = res.json()
-    
-    
+            return res.json()
+        
