@@ -16,7 +16,7 @@ Including another URLconf
 from django.urls import path, include
 from django.contrib import admin
 from django.contrib.auth.models import User
-from rest_framework import routers, serializers, viewset
+from rest_framework import routers, serializers
 
 urlpatterns = [
     path('admin/', admin.site.urls),

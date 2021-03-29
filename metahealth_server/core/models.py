@@ -1,5 +1,5 @@
 from django.db import models
-from django_postgres_extensions.models.fields import JSONField
+from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 
 
@@ -18,19 +18,19 @@ class Profissional(models.Model):
     tipo_profissional = models.CharField(
         max_length=5,
         choices=TipoDeRegistro.choices,
-        default=TipoDeRegistro.Outros,
+        default=TipoDeRegistro.OUTROS,
     )
     
-    uf = models.CherField(
+    uf = models.CharField(
         max_length = 2,
         choices=UF.choices,
-        default=UF.Outros,
+        default=UF.OUTROS,
     )
     
     created_at = models.DateField(_("data_de_criacao"), auto_now_add=True)
-    nome = models.TextField()
-    register_id = models.TextField()
-    rank = models.TextField()
+    nome = models.CharField(max_length=100)
+    register_id = models.CharField(max_length=10)
+    rank = models.IntegerField()
     raw_validation = models.JSONField(_("raw validation"), null=True, blank=True)
     
     def is_in_scope(self):
