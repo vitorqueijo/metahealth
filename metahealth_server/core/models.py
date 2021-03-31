@@ -13,7 +13,7 @@ class Profissional(models.Model):
     
     class UF(models.TextChoices):
         SP = 'SP', _('SaoPaulo')
-        OUTROS = 0, _('OutrasLocalidades')
+        OUTROS = '00', _('OutrasLocalidades')
     
     tipo_profissional = models.CharField(
         max_length=5,
@@ -34,12 +34,12 @@ class Profissional(models.Model):
     raw_validation = models.JSONField()
     
     @classmethod
-    def is_in_scope(tipo_para_comparar, uf_para_comparar):
-        if tipo_para_comparar in not {
-            self.TipoDeRegistro.MEDICINA,
-            self.TipoDeRegistro.PSICOLOGIA,
-        } and uf_para_comparar in not {
-            self.UF.SP
+    def is_in_scope(cls, tipo_para_comparar, uf_para_comparar):
+        if not tipo_para_comparar in {
+            cls.TipoDeRegistro.MEDICINA,
+            cls.TipoDeRegistro.PSICOLOGIA,
+        } and uf_para_comparar in {
+            cls.UF.SP
         }:
             return False
         return True

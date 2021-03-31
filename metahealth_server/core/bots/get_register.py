@@ -7,7 +7,6 @@ import requests
 import json
 
 
-
 class RegisterValidationBot:
     def __init__(self, tipo_profissional, registro_profissional, uf = 'SP', **kwags):
         self.__REGISTER_KEY = getattr(settings, "REGISTER_KEY", None)
@@ -39,6 +38,4 @@ class RegisterValidationBot:
             raise Exception("Está fora do escopo do sistema!")
         self.__url_builder()
         return self.__get_validation()
-        
-        
-        
+ 
