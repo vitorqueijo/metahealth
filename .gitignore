@@ -131,3 +131,4 @@ dmypy.json
 
 .fake
 .ionide
+/meta_alternative
