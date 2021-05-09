@@ -1,19 +1,15 @@
-import React, { useState } from "react";
-import { Text, StyleSheet } from "react-native";
+import React from "react";
+import  { Text, StyleSheet } from "react-native";
 
 
-const HeaderText = (title, subtitle) => 
+const HeaderText = (props) => 
 {
-    const [titleText, setTitle] = useState(title);
-    const bodyText = useState(subtitle);
-
-    return 
-    (
+    return (
         <Text style={styles.baseText}>
             <Text style={styles.titleText}>
-                {"\n"}
+                {props.titleText}
             </Text>
-            <Text numberOfLines={20}>{bodyText}</Text>
+            <Text numberOfLines={20}>{props.bodyText}</Text>
         </Text>
     );
 };
@@ -36,3 +32,5 @@ const styles = StyleSheet.create({
         lineHtMono: '1.5'
     }
 });
+
+export default HeaderText();
