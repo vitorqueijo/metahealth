@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: local('SpaceGrotesk'), url(./fonts/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: SpaceGrotesk,
+    monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+text {
+  color: #D296D2;
+}
+
+code {
+  font-family: SpaceGrotesk,
+    monospace;
+}
