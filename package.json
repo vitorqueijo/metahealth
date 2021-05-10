@@ -1,9 +1,9 @@
 {
-  "name": "metahealth-page",
+  "name": "metahealth",
   "version": "0.1.0",
   "private": true,
   "author": "Vitor Queijo",
-  "homepage": "https://vitorqueijo.github.io/metahealth/docs",
+  "homepage": "https://metahealth.com.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
