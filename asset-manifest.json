@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.33dbc8b6.chunk.css",
+    "main.css": "/static/css/main.43d1afb3.chunk.css",
     "main.js": "/static/js/main.9b15a4d3.chunk.js",
     "main.js.map": "/static/js/main.9b15a4d3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f97445e4.js",
@@ -10,7 +10,7 @@
     "static/js/3.d106f696.chunk.js": "/static/js/3.d106f696.chunk.js",
     "static/js/3.d106f696.chunk.js.map": "/static/js/3.d106f696.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.33dbc8b6.chunk.css.map": "/static/css/main.33dbc8b6.chunk.css.map",
+    "static/css/main.43d1afb3.chunk.css.map": "/static/css/main.43d1afb3.chunk.css.map",
     "static/js/2.a540bcad.chunk.js.LICENSE.txt": "/static/js/2.a540bcad.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/SpaceGrotesk-VariableFont_wght.0ab039e3.ttf",
     "static/media/logo.399297d1.svg": "/static/media/logo.399297d1.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f97445e4.js",
     "static/js/2.a540bcad.chunk.js",
-    "static/css/main.33dbc8b6.chunk.css",
+    "static/css/main.43d1afb3.chunk.css",
     "static/js/main.9b15a4d3.chunk.js"
   ]
 }
