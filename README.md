@@ -8,7 +8,7 @@ Mental health auditor opensource project
 - Seguir os princípios democráticos de liberdade, autonomia e autarquia horizontal
 - CopyLeft deve ser respeitado como máxima.
 
-# Sobre a instituição
+# Política do Projeto
 - Sugestões são bem-vindas tais como Pull requests
 - Toda contribuição será considerada à partir dessa data (26/03/2021)
 
