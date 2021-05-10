@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/metahealth/static/css/main.e5537cf4.chunk.css",
+    "main.js": "/metahealth/static/js/main.75b64f98.chunk.js",
+    "main.js.map": "/metahealth/static/js/main.75b64f98.chunk.js.map",
+    "runtime-main.js": "/metahealth/static/js/runtime-main.bb426d6d.js",
+    "runtime-main.js.map": "/metahealth/static/js/runtime-main.bb426d6d.js.map",
+    "static/js/2.014ffb19.chunk.js": "/metahealth/static/js/2.014ffb19.chunk.js",
+    "static/js/2.014ffb19.chunk.js.map": "/metahealth/static/js/2.014ffb19.chunk.js.map",
+    "static/js/3.94e0073d.chunk.js": "/metahealth/static/js/3.94e0073d.chunk.js",
+    "static/js/3.94e0073d.chunk.js.map": "/metahealth/static/js/3.94e0073d.chunk.js.map",
+    "index.html": "/metahealth/index.html",
+    "static/css/main.e5537cf4.chunk.css.map": "/metahealth/static/css/main.e5537cf4.chunk.css.map",
+    "static/js/2.014ffb19.chunk.js.LICENSE.txt": "/metahealth/static/js/2.014ffb19.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/metahealth/static/media/SpaceGrotesk-VariableFont_wght.0ab039e3.ttf",
+    "static/media/logo.399297d1.svg": "/metahealth/static/media/logo.399297d1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb426d6d.js",
+    "static/js/2.014ffb19.chunk.js",
+    "static/css/main.e5537cf4.chunk.css",
+    "static/js/main.75b64f98.chunk.js"
+  ]
+}
