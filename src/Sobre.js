@@ -9,7 +9,9 @@ class SaibaMais extends Component {
         return (
             <div className="App">
                 <header className="App-header-sobre">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <Link to='/'>
+                        <img src={logo} className="App-logo" alt="logo"/>
+                    </Link>
                     <h1 className="App-title">
                         Sobre Metahealth
                     </h1>
