@@ -17,12 +17,29 @@
   font-size: calc(10px + 2vmin);
   color: #ffffff;
   font-weight: lighter;
+  overflow: hidden;
 }
 
-.App-link {
+.App-header-sobre {
+  background-color: #3C143C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.App-title{
   color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
+}
+
+.App-link{
+  color: #ffffff!important;
+  text-decoration: none!important;
+  font-weight: bold!important;
 }
 
 .App-footer {
@@ -36,4 +53,47 @@
   text-align: left;
   padding-left: 0px;
   float: left;
+}
+
+.App-header-sobre > .App-contato{
+  background-color: #3C143C;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #FFC450;
+  font-weight: lighter;
+  text-align: left;
+  padding: 5px;
+}
+
+.App-intro > .App-link{
+  background-color: #3C143C;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #FFC450;
+  font-weight: lighter;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none!important;
+  font-weight: bold!important;
+}
+
+.App-intro {
+  background-color: #3C143C;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #D296D2;
+  font-weight: lighter;
+  text-align: left;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  font-weight: lighter;
 }

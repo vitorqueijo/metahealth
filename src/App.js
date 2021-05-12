@@ -1,40 +1,42 @@
+import { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Serviço gratuito e complementar a pacientes neurodiversos
-        </p>
-        <div>
-          <p>
-            <a
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h3>
+            Serviço Opensource a pacientes neurodiversos
+          </h3>
+          <div>
+            <p>
+              <a
+                className="App-link"
+                href="https://github.com/vitorqueijo/metahealth_server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Projeto Metahealth Server
+              </a>
+            </p>
+            <Link
               className="App-link"
-              href="https://github.com/vitorqueijo/metahealth_server"
-              target="_blank"
-              rel="noopener noreferrer"
+              to="/saiba-mais"
             >
-              Projeto Metahealth Server
-            </a>
-          </p>
-          <a
-            className="App-link"
-            href="https://github.com/vitorqueijo/metahealth"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Saiba Mais
-          </a>
-        </div>
-      </header>
-      <footer className="App-footer">
-        <div>GNU General Public License v3.0</div>
-      </footer>
-    </div>
-  );
+              O que é o Metahealth?
+            </Link>
+          </div>
+        </header>
+        <footer className="App-footer">
+          <div>GNU General Public License v3.0</div>
+        </footer>
+      </div>
+    );
+  }
 }
 
 export default App;

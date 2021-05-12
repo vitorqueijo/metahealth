@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import SaibaMais from './Sobre';
+import Component404 from './Component404';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './fonts/SpaceGrotesk-VariableFont_wght.ttf'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact={ true } component={App}/>
+      <Route path="/saiba-mais" component={SaibaMais}/>
+      <Route path='*' component={Component404} />
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
