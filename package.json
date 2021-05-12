@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "author": "Vitor Queijo",
-  "homepage": "https://vitorqueijo.github.io/",
+  "homepage": "https://metahealth.com.br/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
