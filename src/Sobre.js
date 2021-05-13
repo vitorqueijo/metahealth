@@ -17,30 +17,31 @@ class SaibaMais extends Component {
                     </h1>
                     <h2 className="App-title">Objetivo</h2>
                     <p className="App-intro">
-                        Trazer um serviço gratuito e complementar a pacientes neurodiversos visando um melhor direcionamento e guia nos sistemas público e privados.
+                        Trazer um serviço gratuito e complementar aos pacientes neurodiversos, com um direcionamento e guia aos sistemas de saúde público e privado.
                     </p>
                     <h2 className="App-title">Como fazer isso?</h2>
                     <p className="App-intro">
-                        O Metahealth em si pretende ser um sistema, não um aplicativo unicamente. Em termos práticos para o profissional, haverá um aplicativo onde
-                        poderá se cadastrar suas informações como, além da especialidade, sua disponibilidade e preços (ou não, caso seja ativista) de acordo com a possível
-                        severidade do estado psíquico do paciente. Tal como haverá a inserção manual dos locais da saúde pública, seja por indicação de algum profissional da
-                        plataforma, seja pelo desenvolvedor da plataforma. Do lado do paciente, haverá um app para entrada rápida sem login, a ideia é conseguir uma agilidade
-                        no atendimento de casos severos, logo de acordo com um formulário rápido (severidade da condição, serviços públicos ou privados e localização atual )
-                        indicar os locais e profissionais disponíveis na região do paciente.
+                        O Metahealth  pretende ser um sistema, não apenas um aplicativo.
                     </p>
                     <p className="App-intro">
-                        O conceito de ser um sistema de auditor é o que demanda os outros dois componentes nucleares do projeto: bot verificador de registros e um algoritmo de rankeamento.
-                        O bot verificador apenas verifica o registro dos profissionais da plataforma, em caso de irregularidade ou inativo, o profiossional não será mais mostrado aos pacientes. 
-                        Por isso, apenas será possível estar na plataforma se o profissional possuir CRM, CRP e outros ( 'outros' ainda está em fase de estudo ). Quanto ao rankeador, é importante
-                        a participação de profissionais, ele poderá votar em graus de confiança, para formar um ecossistema de auditoria horizontal, pacientes também poderão votar, contudo no status atual
-                        do projeto ainda não está diretamente no escopo, uma vez que não há login, a votação ficaria desequilibrada. O rankeamento apenas pretende-se rankear de acordo com localizações a fim de
-                        otimizar o serviço de pesquisa, separando público do privado. Afinal, mesmo que um profissional seja 'ótimo', sempre pode ocorrer do paciente não possuir meios financeiros ou até evitar pelo medo de ser cobrado.
+                        Para o profissional, haverá um aplicativo onde poderá  cadastrar informações como a sua especialidade,  a sua disponibilidade e os preços que pratica (ou não, caso seja ativista), em acordo com a possível severidade do estado psíquico do paciente.
+                    </p>
+                    <p className="App-intro">
+                        Para o paciente, haverá um app com entrada rápida, sem login. A ideia é conseguir agilizar o atendimento dos casos severos, através de um formulário rápido (severidade da condição, serviços público ou privado e as localizações) indicando locais e profissionais disponíveis na região em que ele se encontrar.
+                    </p>
+                    <p className="App-intro">
+                        O seu conceito – ser um sistema de auditor  - demanda  dois componentes nucleares do projeto: um bot verificador de registros e um algoritmo de rankeamento.
+                    </p>
+                    <p className="App-intro">
+                        O bot verificador  considera o registro dos profissionais da plataforma e,  em caso de irregularidade ou inatividade, esse profissional não será indicado aos pacientes. Para isso, será  necessário que  o profissional possua CRM, CRP e outros ('outros' ainda está em fase de estudo).
+                    </p>
+                    <p className="App-intro">
+                    Quanto ao rankeador,  importante para a participação de profissionais que, podem votar em graus de confiança, formando um ecossistema de auditoria horizontal. Os pacientes também podem votar, contudo não há ainda esse status no projeto,  uma vez que não há login e a votação poderia ficar desequilibrada. Esse rankeamento pretende  classificar  para  otimizar o serviço de pesquisa, separando o público do privado. Afinal, mesmo que um profissional seja extremamente capacitado, pode acontecer do paciente não possuir meios financeiros e até evitá-lo pelo medo de sua competência.
                     </p>
                     <h2 className="App-title">Motivação</h2>
                     <p className="App-intro">
-                        A procura por ajuda psicológica e psiquiatrica infelizmente são ainda difíceis, morosas e até frustrantes.
-                        Sem contar o
-                        <a 
+                    A procura por ajuda psicológica e psiquiátrica  ainda é difícil, morosa e, por vezes, frustrante. Sem contar o 
+                        <a
                             classLink="App-link" 
                             href="https://www.unifesp.br/reitoria/dci/index.php?option=com_k2&view=item&id=2876:depressao-e-a-maior-causa-de-incapacitacao-no-mundo"
                             target="_blank"
@@ -48,24 +49,16 @@ class SaibaMais extends Component {
                             >
                             estigma
                         </a>
-                        existente sobre doenças psiquiátricas. Para tanto, o sistema pretende-se trazer um ecossistema, uma rede que já existe de indicação profissional e
-                        humana para os pacientes em diversas situações sem a barreira de algoritmos movidos à "pay-per-view", uma vez cadastrado e homologado, o profissional
-                        já pode auditar outros profissionais conhecidos e locais de forma completamente anônima ou não ( Imaginamos que poucas vezes haverá alguém auditando
-                        outro profissional negativamente de forma não-anônima).
+                        existente nas doenças psiquiátricas. Para tanto, o sistema pretende  trazer um ecossistema, uma rede que já existe de indicação profissional e humana, para os pacientes em diversas situações, sem barreira de algoritmos movidos à "pay-per-view". Uma vez cadastrado e homologado, o profissional já pode auditar outros profissionais conhecidos e locais de forma completamente anônima ou não (Imaginamos que, algumas vezes, haverá alguém auditando outro profissional negativamente e de forma não-anônima).
                     </p>
                     <p className="App-intro">
-                        Inicialmente, o projeto estava condicionado a ser apenas uma ferramenta de pesquisa otimizada para casos severos. Após projetar o sistema em sua ideia final,
-                        há muitas possibilidades de escalonamento.
+                        Inicialmente, o projeto estava condicionado a ser apenas uma ferramenta de pesquisa otimizada para casos severos. Após projetar o sistema em sua ideia final, há muitas possibilidades de escalonamento.
                     </p>
                     <p className="App-intro">
-                        O único problema: atualmente o projeto é tocado fixamente por uma pessoa. Eu. Atualmente, trabalho e estudo, tenho poucas horas para conseguir me dedicar ao projeto,
-                        além de ter de lidar com estresse e sobrecarga ( além de ocasionais insônias ) que fazem o projeto ficar parado por dias ou semanas. Sei o valor do que isso poderia ter
-                        me trazido no passado e tornei disso como meu motor principal, trazer aos que procuram ajuda o que hoje eu tenho após anos de tentativa e erro. 
+                        O problema atual é que o projeto é tocado  por apenas uma pessoa, eu. Como trabalho e estudo, tento dedicar-me, também, ao projeto. Tenho que lidar com estresse e sobrecarga (além de ocasionais insônias) que  têm feito o projeto ficar parado por dias ou semanas. Sei o valor que isso poderia ter me trazido no passado e tornei isso meu motor principal. Tento assim, trazer a ajuda que hoje tenho, após anos de tentativas e erros.
                     </p>
                     <p className="App-intro">
-                        Toda ajuda é válida, seja de trabalho de coding, financeira ou até sugestões. Mas não absoluta, o que eu pude aprender durante o desenvolvimento do projeto,
-                        é uma incompreensão do que seria procurar ajuda psicológica e psiquiátrica, ou até o que seria procurar ajuda em situações gravíssimas, então, não se sinta
-                        ignorado caso eu filtre alguma sugestão, se for por e-mail, prometo que com tempo tento explicar os motivos.
+                        Toda colaboração  será válida, seja de trabalho de codificação, financeira  e até sugestões. Pude aprender muito durante o desenvolvimento desse projeto.  Não se sinta ignorado caso eu filtre alguma sugestão em detrimento de outra.  Se for entrar em contato por e-mail, prometo, com o  tempo,  explicar os motivos dessas escolhas.
                     </p>
                     <h2 className="App-title">O que o Metahealth não é</h2>
                     <ul className="App-intro">

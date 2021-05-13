@@ -12,7 +12,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={ true } component={App}/>
-      <Route path="/saiba-mais" component={SaibaMais}/>
+      <Route path="/saiba-mais" exact component={SaibaMais}/>
       <Route path='*' component={Component404} />
     </Switch>
   </BrowserRouter>,
