@@ -1,9 +1,15 @@
 .App {
   text-align: center;
+  margin: 0%;
+  overflow-y: hidden;
+}
+
+.App-Sobre {
+  overflow-y: hidden;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -12,24 +18,20 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ffffff;
-  font-weight: lighter;
   overflow: hidden;
 }
 
 .App-header-sobre {
   background-color: #3C143C;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: left;
   font-size: calc(10px + 2vmin);
   font-weight: lighter;
-  overflow: hidden;
 }
 
 .App-title{
@@ -37,9 +39,14 @@
 }
 
 .App-link{
-  color: #ffffff!important;
+  color: #D296D2!important;
   text-decoration: none!important;
-  font-weight: bold!important;
+  font-weight: lighter!important;
+  transition: height 1s width 2s;
+}
+
+.App-link:hover{
+  height: 150%!important;
 }
 
 .App-footer {
@@ -76,7 +83,6 @@
   text-align: left;
   padding: 5px;
   text-decoration: none!important;
-  font-weight: bold!important;
 }
 
 .App-intro {
@@ -96,4 +102,10 @@ ul {
 
 h1, h2, h3 {
   font-weight: lighter;
+}
+
+a{
+  padding-inline: inherit;
+  color: #FFC450;
+  text-decoration: none!important;
 }

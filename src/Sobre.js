@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 class SaibaMais extends Component {
     render () {
         return (
-            <div className="App">
-                <header className="App-header-sobre">
+            <div className="App-Sobre">
+                <div className="App-header-sobre">
                     <Link to='/'>
                         <img src={logo} className="App-logo" alt="logo"/>
                     </Link>
@@ -74,7 +74,7 @@ class SaibaMais extends Component {
                     <p>
                         <Link className="App-link" to="/" rel="noopener noreferrer">Voltar</Link>
                     </p>
-                </header>
+                </div>
             </div>
         )
     }
