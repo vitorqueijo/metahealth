@@ -1,6 +1,6 @@
 # Metahealth
 Mental health auditor opensource project
-- [Repositório do Server](https://github.com/vitorqueijo/metahealth_server)
+- [Repositório do System](https://github.com/MetahealthSystem)
 
 # Objetivo
 - Trazer um serviço gratuito e complementar a pacientes neurodiversos visando um melhor direcionamento e guia nos sistemas público e privados.
