@@ -16,7 +16,7 @@ class App extends Component {
             <p>
               <a
                 className="App-link"
-                href="https://github.com/vitorqueijo/metahealth_server"
+                href="https://github.com/vitorqueijo/metahealth"
                 target="_blank"
                 rel="noopener noreferrer"
               >
